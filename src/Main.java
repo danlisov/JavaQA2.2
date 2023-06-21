@@ -8,7 +8,7 @@ public class Main {
         int bonus = amount / 100;
         int FinalSum;
 
-        if (amount >= 1000) {
+        if (amount > 1000) {
             FinalSum = balance + amount + bonus;
         } else {
             FinalSum = balance + amount;
