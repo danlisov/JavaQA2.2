@@ -6,12 +6,12 @@ public class Main {
         int balance = 150;
         int amount = 1500;
         int bonus = amount / 100;
-        int FinalSum;
+        int finalSum;
 
         if (amount > 1000) {
-            FinalSum = balance + amount + bonus;
+            finalSum = balance + amount + bonus;
         } else {
-            FinalSum = balance + amount;
+            finalSum = balance + amount;
         }
 
         System.out.println(FinalSum);
